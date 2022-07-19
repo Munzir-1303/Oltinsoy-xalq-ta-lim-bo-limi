@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+.marquee{
+    background-color: #87ceeb;
+    font-size: 20px;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+}
+
+.container{
+    width: 1340px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.header .container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.header__link{
+    margin-right: 619px;
+}
+.nav{
+    margin-top: 82px;
+}
+.nav__list{
+    display: flex;
+}
+.nav__link{
+    margin: 0 30px;
+    font-size: 16px;
+    color: #574444;
+}
+.nav__link:hover{
+    text-decoration: underline;
+    color: #f50a0a;
+}
+
+.hero__flex{
+    display: flex;
+    margin-left: 90px;
+}
+.hero__div{
+    margin-top: 70px;
+}
+.hero__img{
+    transform: translate(200px, -73px);
+}
+.hero__h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.hero__p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.hero__span{
+    padding: 10px 35px;
+    background: #e3da5d;
+    border-radius: 7px;
+}
+.hero__span:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background: #111111;
+}
+.hero__link:hover{
+    transition: 0.8s;
+    color: #e3da5d;
+}
+.hero__link{
+    color: #111111;
+}
+
+.about__list{
+    display: flex;
+}
+.about__item{
+    width: 320px;
+    height: 450px;
+    margin-right: 50px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 8px 13px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 0px 8px 13px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 0px 8px 13px rgba(34, 60, 80, 0.05);
+}
+.about__item:hover{
+    cursor: pointer;
+    transition: 1s;
+    -webkit-box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+}
+.about__img{
+    margin-top: 40px;
+    margin-left: 95px;
+}
+.about__h2{
+    text-align: center;
+    font-size: 25px;
+}
+.about__span{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about__span-1{
+    margin-left: 79px;
+}
+
+.about__span-2 {
+    margin-bottom: 50px;
+}
+.about__link{
+    color: #8c8787;
+}
+
+.yangi{
+    margin-top: 125px;
+}
+.yangi__flex{
+    display: flex;
+    margin-bottom: 70px;
+}
+.yangi__joy{
+    width: 400px;
+    margin-right: 80px;
+    margin-left: 60px;
+    -webkit-box-shadow: -1px 4px 8px 20px rgba(34, 60, 80, 0.07);
+    -moz-box-shadow: -1px 4px 8px 20px rgba(34, 60, 80, 0.07);
+    box-shadow: -1px 4px 8px 20px rgba(34, 60, 80, 0.07);
+}
+.yangi__joy:hover{
+    cursor: pointer;
+    transition: 1s;
+    -webkit-box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 27px rgba(34, 60, 80, 0.2);
+}
+.yangi__rasm{
+    background-image: url("../img/hokim.png");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+.yangi__p{
+    text-align: center;
+    margin-left: 30px;
+}
+.yangi__span{
+    margin-right: 174px;
+    color: #8c8787;
+}
+.yangi__link{
+    font-size: 30px;
+    color: #e3da5d;
+}
